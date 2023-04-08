@@ -12,11 +12,11 @@ function playGame() {
     var title = document.querySelector("h1");
 
     if (randomNumber1 === randomNumber2) {
-        title.innerHTML = ("Draw")
+        title.innerHTML = ("Draw!")
     } else if (randomNumber1 > randomNumber2) {
-        title.innerHTML = ("play 1 wins!")
+        title.innerHTML = ("🚩play 1 wins!")
     } else if (randomNumber1 < randomNumber2) {
-        title.innerHTML = ("play 2 wins!")
+        title.innerHTML = ("🚩play 2 wins!")
     }
 }
 
